@@ -1,0 +1,211 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: palevioletred;
+    color: blueviolet;
+}
+
+marquee{
+    color:darkmagenta;
+    height: 30px;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+h1,h2 ,h3{
+    font-family: monotype corsiva ;
+    letter-spacing: 2px;
+    text-align: center;
+    color: blueviolet;
+}
+
+button{
+    border-radius: 5em;
+    border: none;
+    width: 9em;
+    height: 3em;
+    padding: 10px 20px;
+    background-color: #ff1493;
+    color: #e6e6fa;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #6a1bb5;
+}
+p{
+    color: #333;
+}
+
+section{
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 1px solid  palegoldenrod;
+}
+/*HERO-SECTION*/
+#hero-section h1{
+font-size: 80px;
+}
+
+#hero-section p{ 
+    font-size: 40px;
+    max-width: 700px;
+    margin: 80px auto;
+    color: gold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#hero-section{
+    background-image: url(../portofolio/Transparent\ Pink\ Macaroon\ Nail\ Polish\ Summer\ Pink\ Background\,\ Desktop\ Wallpaper\,\ Pc\ Wallpaper\,\ Texture\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpeg) ;
+}
+/*About-Section*/
+#about-section p{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+/*SERVICE-SECTION*/
+#services-section button{
+    height: 3.5em;
+}
+#services-section h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+#services-section {
+    background-color: white;
+}
+
+#services-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    justify-content: space-evenly;
+}
+
+#services-card{
+    display: inline-block;
+    width: 12.5em;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f8f1f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+#gallery-section{
+    background-color: blanchedalmond;
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3 ease;
+}
+
+.gallery-grid img:hover{
+    transform: scale(1.05);
+}
+/*TESTIMONIAL*/
+#testimonal-section{
+    background-color: #f8f1f4;
+}
+
+.testimonial-card{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p{
+    font-style: italic;
+}
+
+.testimonial-card h4{
+    margin-top: 10px;
+    color: #8a2be2;
+}
+/*Contact*/
+#contact-section{
+    background-color: #ffebcd;
+}
+#contact-section form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-section input, #contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#contact-section button{
+    background-color: #ff1493;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition:  background-color 0.3s ease;
+}
+
+#contact-section button:hover{
+    background-color: #6a1bb5;
+}
+/*FOOTER*/
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover{
+    color: deeppink;
+}
+
+footer p{
+    margin-top: 10px;
+    color: white;
+}
+marquee a {
+    color: #ffebce;
+    text-decoration: none;
+}
+.service-card a {
+    text-decoration: none;
+    color: #f8f1f4;
+}
